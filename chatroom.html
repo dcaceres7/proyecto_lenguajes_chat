@@ -4,7 +4,7 @@
 <title>Live Chat</title>
 <meta charset="UTF-8">
 
-<script src="/public/socket.io/socket.io.js"></script>
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
 html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif;}
 .w3-bar-block .w3-bar-item{padding:16px}
 </style>
-<body ng-app="myChat" ng-controller="chatCtrl as vm">
+<body ng-app="myApp" ng-controller="appCtrl as vm">
 
 <!-- Side Navigation -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card-2" style="z-index:3;width:320px;" id="mySidebar">
@@ -238,11 +238,11 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif;}
 <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js'></script>
 
-<script src="/public/js/chat_index.js"></script>
-<script src="/public/angular.min.js"></script>
-<script src="/public/js/app.js"></script>
+<script src="js/chat_index.js"></script>
+<script src="angular.min.js"></script>
+<script src="js/app.js"></script>
 
-<script src="/public/js/chatroom.js"></script>
+<script src="js/chatroom.js"></script>
 <script>
 var openTab = document.getElementById("firstTab");
 openTab.click();

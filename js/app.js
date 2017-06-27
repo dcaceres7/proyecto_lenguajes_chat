@@ -1,4 +1,4 @@
-angular.module('myChat', []).controller('chatCtrl', function($scope) {
+angular.module('myApp', []).controller('appCtrl', function($scope) {
 	var vm = this;
 	vm.messages = [{name:'Daniela', time:'11:11 PM, Today' , mes: 'holaaa'},
 					{name:'Daniela', time:'11:11 PM, Today' , mes: 'como estas?'},
